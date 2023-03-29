@@ -16,7 +16,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -50,4 +49,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: leadersingh/boredapp:latest
+          tags: leadersingh/github:latest
